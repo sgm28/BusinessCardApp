@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+
+    <!-- https://www.pexels.com/photo/black-and-grey-keys-792034/ -->
+    <ImageView
+        android:src="@drawable/pexels_photo_792034"
+        android:scaleType="centerCrop"
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <!-- https://images.typeform.com/images/ZMEML87L3H/image/default -->
+    <ImageView
+        android:src="@drawable/udacitylogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Unlocking the doors to a better life.\n
+One Key at a time through technology\n
+and education."
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#0093c4"
+
+
+        />
+
+
+
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udacity\n 2465 Latham St\n Mountain View, CA 9403\n 650-55-5555"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#0093c4"
+
+
+        />
+
+</RelativeLayout>
